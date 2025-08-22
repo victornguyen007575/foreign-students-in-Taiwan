@@ -1,8 +1,8 @@
 # Overseas Student Enrollment in Taiwan: Data Wrangling & Visualization
-
-Status: in-progress
-
 This project analyzes trends and drivers of overseas student enrollment in Taiwan from 2014 to 2024, using official data from Taiwan’s Ministry of Education. The workflow demonstrates data wrangling and visualization.
+
+<img width="1458" height="790" alt="image" src="https://github.com/user-attachments/assets/6caa248e-275e-4e82-8c03-99d4daa54491" />
+<img width="1445" height="658" alt="image" src="https://github.com/user-attachments/assets/90ad259f-cba1-4525-bca7-a481bb7beca6" />
 
 ## Setup
 ### Requirements
