@@ -50,7 +50,7 @@ def plotTop10(df):
         dfTop10.pivot_table(index='Country', columns='Year', values='Total'),
         annot=True, fmt='g', cmap='Blues',
     )
-    plt.title('Top 10 Countries with the Highest Average Students in Taiwan from the Year 103 to 113', fontsize=18, fontweight='bold')
+    plt.title('Top 10 Countries with the Highest Average Numbers of Students in Taiwan from the Year 103 to 113', fontsize=18, fontweight='bold')
     plt.xlabel('Year', fontsize=14)
     plt.ylabel('')
     plt.tight_layout()
@@ -64,4 +64,5 @@ def plotTop10(df):
     g.map_dataframe(func=sns.lineplot, x='Year', y='Number of Students', hue='Country')
     g.add_legend(ncols=5, bbox_to_anchor=[0.5,1.05])
     g.figure.subplots_adjust(hspace=0.25, wspace=0.25)
+
     plt.show()
